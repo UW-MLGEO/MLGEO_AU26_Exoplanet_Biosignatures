@@ -73,3 +73,14 @@ The smoke test checks that the Python environment and basic ML packages work cor
 - `pixi.lock` — Locked dependency versions.
 - `AGENTS.md` — Project instructions.
 - `scripts/smoke_test.py` — Basic environment smoke test.
+
+## Reflection
+
+**1. What did we learn?**
+Our spectra had very different numbers of data points and covered different wavelength ranges, which made it difficult to compare them directly. We also learned why it is important to split the data carefully. Since some planets had multiple spectra, we had to make sure the same planet did not appear in both the training and test sets.
+
+**2. What did we learn from using AI or chatbots?**
+We used AI to help write some of the Python code, understand the rubric, and figure out how to analyze the dataset. However, we also learned that AI suggestions do not always work perfectly with real data. For example, our initial PCA approach assumed that all spectra shared a common wavelength range, which turned out not to be true. We had to check the results and adjust our approach.
+
+**3. What would we improve about this assignment?**
+We think it would be helpful to have more examples of how to prepare datasets that are not already in a consistent format. Our spectra came from different instruments and had different wavelength ranges, so some parts of the assignment were harder to apply directly. An example using this kind of scientific data would make it easier to understand how to handle these differences.
