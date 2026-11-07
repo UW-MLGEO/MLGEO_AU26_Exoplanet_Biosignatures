@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Download the NASA Exoplanet Archive spectra for this project."""
 
+# Delay annotation evaluation so type hints remain compatible across Python versions.
 from __future__ import annotations
 
+# Standard-library imports provide command-line parsing, CSV/clipboard access,
+# URL handling, and HTTP downloads without additional packages.
 import argparse
 import csv
 import io
@@ -12,15 +15,17 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 
+# The temporary NASA archive manifest and the project's default raw-data folder.
 DEFAULT_MANIFEST = (
     "https://exoplanetarchive.ipac.caltech.edu/work/"
     "TMP_umZx4k_3214872/atmospheres/tab1/spectra.csv"
 )
-DEFAULT_DOWNLOAD_DIRECTORY = Path(__file__).resolve().parents[1] / "RawExoData" / "raw"
+DEFAULT_DOWNLOAD_DIRECTORY = Path(__file__).resolve().parents[1] / "ExoData" / "raw"
 
 
 def read_clipboard() -> str:
     """Return macOS clipboard contents, when available."""
+    # macOS Clipboard text can be pasted as a fallback when no command file is given.
     try:
         return subprocess.run(
             ["pbpaste"], check=True, capture_output=True, text=True
@@ -33,11 +38,13 @@ def parse_download_commands(text: str) -> list[tuple[str, str]]:
     """Convert wget or curl download commands into (filename, URL) pairs."""
     downloads: list[tuple[str, str]] = []
 
+    # Parse one download command per nonblank line and ignore unrelated commands.
     for line in text.splitlines():
         words = shlex.split(line.strip())
         if not words:
             continue
 
+        # Extract the output filename and URL from a wget -O command.
         if words[0] == "wget":
             try:
                 output_index = words.index("-O")
@@ -45,6 +52,7 @@ def parse_download_commands(text: str) -> list[tuple[str, str]]:
                 url = words[output_index + 2]
             except (ValueError, IndexError):
                 continue
+        # Extract the output filename and URL from an equivalent curl command.
         elif words[0] == "curl":
             try:
                 output_index = next(
@@ -58,6 +66,7 @@ def parse_download_commands(text: str) -> list[tuple[str, str]]:
         else:
             continue
 
+        # Strip any directory from the filename so everything lands in one folder.
         downloads.append((Path(filename).name, url))
 
     return downloads
@@ -65,6 +74,7 @@ def parse_download_commands(text: str) -> list[tuple[str, str]]:
 
 def downloads_from_manifest(manifest_url: str) -> list[tuple[str, str]]:
     """Read archive SPEC_PATH entries and turn them into download URLs."""
+    # Fetch the CSV as text and identify SPEC_PATH as the column containing files.
     request = Request(manifest_url, headers={"User-Agent": "Mozilla/5.0"})
     with urlopen(request, timeout=60) as response:
         text = response.read().decode("utf-8-sig")
@@ -73,6 +83,7 @@ def downloads_from_manifest(manifest_url: str) -> list[tuple[str, str]]:
     downloads: list[tuple[str, str]] = []
     archive_root = manifest_url.rsplit("/", 1)[0] + "/"
 
+    # Resolve relative paths against the manifest while preserving full URLs.
     for row in reader:
         spec_path = (row.get("SPEC_PATH") or "").strip()
         if not spec_path:
@@ -84,6 +95,7 @@ def downloads_from_manifest(manifest_url: str) -> list[tuple[str, str]]:
 
 
 def download_file(url: str, destination: Path) -> bool:
+    # Create the output directory and avoid downloading a nonempty file twice.
     destination.parent.mkdir(parents=True, exist_ok=True)
     if destination.exists() and destination.stat().st_size > 0:
         print(f"skip  {destination.name}")
@@ -91,18 +103,21 @@ def download_file(url: str, destination: Path) -> bool:
 
     request = Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
+        # Stream the response in chunks so large spectra are not held entirely in RAM.
         with urlopen(request, timeout=60) as response, destination.open("wb") as output:
             while chunk := response.read(1024 * 1024):
                 output.write(chunk)
         print(f"saved {destination.name}")
         return True
     except Exception as error:
+        # Remove partial output before reporting the failure for this individual file.
         destination.unlink(missing_ok=True)
         print(f"FAILED {destination.name}: {error}")
         return False
 
 
 def main() -> int:
+    # Define optional positional and named arguments for custom data sources and folders.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("commands", nargs="?", type=Path,
                         help="Text file containing wget or curl download commands")
@@ -112,6 +127,7 @@ def main() -> int:
                         help="Directory for downloaded spectra")
     args = parser.parse_args()
 
+    # Prefer an explicit command file, then clipboard commands, then the archive manifest.
     if args.commands:
         downloads = parse_download_commands(args.commands.read_text())
         source = str(args.commands)
@@ -128,6 +144,7 @@ def main() -> int:
         return 1
 
     print(f"Downloading {len(downloads)} files to {args.output_dir}")
+    # Count individual failures while continuing to attempt every remaining file.
     failures = sum(not download_file(url, args.output_dir / filename)
                    for filename, url in downloads)
 
@@ -139,5 +156,6 @@ def main() -> int:
     return 0
 
 
+# Run main only when this file is executed, not when it is imported as a module.
 if __name__ == "__main__":
     raise SystemExit(main())
