@@ -15,14 +15,21 @@ We will use atmospheric spectroscopy data from the NASA Exoplanet Archive. The d
 
 Dataset: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/atmospheres/nph-firefly?atmospheres
 
+**Provenance for the initial downloaded batch:** NASA Exoplanet Archive Atmospheric Spectroscopy Table, downloaded/reviewed 2026-11-06 using `scripts/data_download.py`; 149 spectra totaling approximately 92 MB in `ExoData/raw/`. The working archive has 57 planets represented by one or more spectra.
+
+**Citation:** NASA Exoplanet Archive, Atmospheric Spectroscopy Table: https://exoplanetarchive.ipac.caltech.edu/cgi-bin/atmospheres/nph-firefly?atmospheres. Follow the Archive's cited publications for the originating studies in any analysis or publication.
+
+**License/data terms:** consult the NASA Exoplanet Archive data-access and redistribution terms before distributing a raw release. Public archive access used by this project does not require a username, password, API token, or committed credential. The repository does not include synthetic spectra or augmentation for the current release; added noise for augmentation remains future work.
+
 We plan to focus on specific wavelength ranges associated with molecules such as CO2, CH4, and SO2. Some spectra have noise or missing data, so preprocessing and normalization may be needed before training the model.
 
 ### Downloading the Data
 
 1. Open the NASA Exoplanet Archive link above.
 2. Select relevant atmospheric spectra, focusing initially on transmission spectroscopy.
-3. Download the selected spectra using the archive's download options.
-4. Save the downloaded files in `data/raw/`.
+3. Download the archive's wget/curl command list, or use its temporary spectra manifest with the default downloader source.
+4. Run `pixi run python scripts/data_download.py` to write `.tbl` files to `ExoData/raw/` without overwriting existing nonempty files.
+5. Run `pixi run python scripts/cleaner.py` to write normalized copies to `ExoData/processed/`.
 
 ## Machine Learning Approach
 
@@ -73,6 +80,9 @@ The smoke test checks that the Python environment and basic ML packages work cor
 - `pixi.lock` — Locked dependency versions.
 - `AGENTS.md` — Project instructions.
 - `scripts/smoke_test.py` — Basic environment smoke test.
+- `scripts/data_download.py` — Downloads NASA atmospheric spectra into the raw-data directory.
+- `scripts/cleaner.py` — Removes unusable and duplicate records and normalizes modeled dependent values.
+- `data/ai_ready/description.yml` — Traveling description of source, variables, units, missing-data policy, partitions, and label status.
 
 ## Reflection
 
