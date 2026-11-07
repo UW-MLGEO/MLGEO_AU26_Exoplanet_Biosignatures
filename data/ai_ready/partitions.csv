@@ -1,0 +1,150 @@
+filename,planet,type,instrument,split
+2MASS_J12073346_3932539_b_3.10912_5457_1.tbl,2MASS J12073346-3932539 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec),excluded
+COCONUTS_2_b_3.12783_6008_1.tbl,COCONUTS-2 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+Delorme_1_AB_b_3.12580_5933_1.tbl,Delorme 1 AB b,Direct Imaging,Mid-Infrared Instrument (MIRI) - MRS,excluded
+GJ_486_b_3.12681_5146_1.tbl,GJ 486 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+GJ_9827_d_3.12079_5513_1.tbl,GJ 9827 d,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+HATS_6_b_3.11756_6158_1.tbl,HATS-6 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,validation
+HATS_6_b_3.11756_6158_2.tbl,HATS-6 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,validation
+HATS_6_b_3.11756_6158_3.tbl,HATS-6 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,validation
+HAT_P_12_b_3.10993_5841_1.tbl,HAT-P-12 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+HAT_P_12_b_3.10993_5841_2.tbl,HAT-P-12 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+HAT_P_12_b_3.10993_6155_3.tbl,HAT-P-12 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+HAT_P_14_b_3.10996_5886_1.tbl,HAT-P-14 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+HAT_P_18_b_3.11001_5041_1.tbl,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+HAT_P_18_b_3.11001_5431_1.tbl,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+HAT_P_18_b_3.11001_5431_2.tbl,HAT-P-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+HAT_P_26_b_3.11010_5775_1.tbl,HAT-P-26 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HAT_P_26_b_3.11010_5775_2.tbl,HAT-P-26 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HAT_P_30_b_3.11015_6098_2.tbl,HAT-P-30 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HAT_P_30_b_3.11015_6098_4.tbl,HAT-P-30 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_15337_c_3.12351_6089_1.tbl,HD 15337 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_15337_c_3.12351_6089_2.tbl,HD 15337 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_15337_c_3.12351_6089_3.tbl,HD 15337 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_15337_c_3.12351_6089_4.tbl,HD 15337 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_15337_c_3.12351_6089_5.tbl,HD 15337 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_15337_c_3.12351_6089_6.tbl,HD 15337 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+HD_189733_b_3.11185_5430_1.tbl,HD 189733 b,Transmission,Near Infrared Camera (NIRCam),train
+HIP_67522_b_3.12561_5512_1.tbl,HIP 67522 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+HIP_67522_b_3.12561_5512_2.tbl,HIP 67522 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+HIP_67522_b_3.12561_5512_3.tbl,HIP 67522 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+HR_8799_b_3.11390_5962_1.tbl,HR 8799 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_b_3.11390_5962_2.tbl,HR 8799 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_c_3.11391_5887_1.tbl,HR 8799 c,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_c_3.11391_5887_2.tbl,HR 8799 c,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_c_3.11391_5962_3.tbl,HR 8799 c,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_c_3.11391_5962_4.tbl,HR 8799 c,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_d_3.11392_5887_3.tbl,HR 8799 d,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_d_3.11392_5887_4.tbl,HR 8799 d,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_d_3.11392_5962_5.tbl,HR 8799 d,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_d_3.11392_5962_6.tbl,HR 8799 d,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_e_3.11393_5887_5.tbl,HR 8799 e,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_e_3.11393_5887_6.tbl,HR 8799 e,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_e_3.11393_5962_7.tbl,HR 8799 e,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+HR_8799_e_3.11393_5962_8.tbl,HR 8799 e,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+K2_18_b_3.11793_5255_1.tbl,K2-18 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+K2_18_b_3.11793_5255_2.tbl,K2-18 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+K2_22_b_3.11807_5742_3.tbl,K2-22 b,Transmission,Mid-Infrared Instrument (MIRI) - LRS,train
+KELT_7_b_3.11769_5798_3.tbl,KELT-7 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+KELT_7_b_3.11769_5798_7.tbl,KELT-7 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+Kepler_51_d_3.2966_5961_1.tbl,Kepler-51 d,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+LHS_1140_b_3.12019_5422_1.tbl,LHS 1140 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),validation
+LHS_1140_c_3.12258_5422_2.tbl,LHS 1140 c,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+LHS_475_b_3.13814_5239_1.tbl,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+LHS_475_b_3.13814_5239_2.tbl,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+LHS_475_b_3.13814_5239_3.tbl,LHS 475 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+LTT_9779_b_3.12596_5328_1.tbl,LTT 9779 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+L_98_59_c_3.12373_5503_1.tbl,L 98-59 c,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+L_98_59_c_3.12373_5503_2.tbl,L 98-59 c,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+L_98_59_c_3.12373_5503_3.tbl,L 98-59 c,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+L_98_59_c_3.12373_5503_4.tbl,L 98-59 c,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+NGTS_2_b_3.12216_6018_2.tbl,NGTS-2 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+NGTS_2_b_3.12216_6018_4.tbl,NGTS-2 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+PSR_J2322_2650_b_3.12100_5868_1.tbl,PSR J2322-2650 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G235H,excluded
+PSR_J2322_2650_b_3.12100_5868_2.tbl,PSR J2322-2650 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - PRISM,excluded
+PSR_J2322_2650_b_3.12100_5868_3.tbl,PSR J2322-2650 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - PRISM,excluded
+PSR_J2322_2650_b_3.12100_5868_4.tbl,PSR J2322-2650 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - PRISM,excluded
+TOI_199_b_3.13229_6051_1.tbl,TOI-199 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395M,train
+TOI_260_b_3.20968_5975_1.tbl,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_260_b_3.20968_5975_2.tbl,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_260_b_3.20968_5975_3.tbl,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_260_b_3.20968_5975_4.tbl,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_260_b_3.20968_5975_5.tbl,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_260_b_3.20968_5975_6.tbl,TOI-260 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_b_3.12404_5776_1.tbl,TOI-270 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_b_3.12404_5776_2.tbl,TOI-270 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_b_3.12404_5776_3.tbl,TOI-270 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_d_3.12406_5800_1.tbl,TOI-270 d,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),excluded
+TOI_270_d_3.12406_5800_2.tbl,TOI-270 d,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_d_3.12406_5949_2.tbl,TOI-270 d,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_d_3.12406_5949_4.tbl,TOI-270 d,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_270_d_3.12406_5949_6.tbl,TOI-270 d,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_3235_b_3.15961_6151_1.tbl,TOI-3235 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,validation
+TOI_5205_b_3.17776_5968_1.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_2.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_3.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_4.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_5.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_6.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_7.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_5205_b_3.17776_5968_8.tbl,TOI-5205 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TOI_732_c_3.12529_5941_3.tbl,TOI-732 c,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),excluded
+TOI_732_c_3.12529_5941_4.tbl,TOI-732 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_732_c_3.12529_5941_5.tbl,TOI-732 c,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+TOI_776_b_3.12641_5649_1.tbl,TOI-776 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_b_3.12641_5649_2.tbl,TOI-776 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_b_3.12641_5649_3.tbl,TOI-776 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_b_3.12641_5649_4.tbl,TOI-776 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_c_3.12642_5648_1.tbl,TOI-776 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_c_3.12642_5648_2.tbl,TOI-776 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_c_3.12642_5648_3.tbl,TOI-776 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_c_3.12642_5648_4.tbl,TOI-776 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_c_3.12642_5648_5.tbl,TOI-776 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_776_c_3.12642_5648_6.tbl,TOI-776 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_836_b_3.13742_5454_1.tbl,TOI-836 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+TOI_836_b_3.13742_5454_2.tbl,TOI-836 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+TOI_836_b_3.13742_5454_3.tbl,TOI-836 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+TOI_836_b_3.13742_5454_4.tbl,TOI-836 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+TOI_836_b_3.13742_5454_5.tbl,TOI-836 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+TOI_836_c_3.13741_5501_1.tbl,TOI-836 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_836_c_3.13741_5501_2.tbl,TOI-836 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TOI_836_c_3.13741_5501_3.tbl,TOI-836 c,Transmission,Near Infrared Spectrograph (NIRSpec),train
+TRAPPIST_1_b_3.11876_5704_1.tbl,TRAPPIST-1 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+TRAPPIST_1_c_3.11877_5704_2.tbl,TRAPPIST-1 c,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,train
+V1298_Tau_b_3.12385_5719_1.tbl,V1298 Tau b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+VHS_1256_1257_b_3.11759_5456_1.tbl,VHS 1256-1257 b,Direct Imaging,Mid-Infrared Instrument (MIRI) - MRS,excluded
+VHS_1256_1257_b_3.11759_5456_2.tbl,VHS 1256-1257 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G140H,excluded
+VHS_1256_1257_b_3.11759_5456_3.tbl,VHS 1256-1257 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G235H,excluded
+VHS_1256_1257_b_3.11759_5456_4.tbl,VHS 1256-1257 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - G395H,excluded
+WASP_107_b_3.12045_5452_1.tbl,WASP-107 b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+WASP_121_b_3.11900_5699_1.tbl,WASP-121 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+WASP_121_b_3.11900_5699_2.tbl,WASP-121 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+WASP_121_b_3.11900_5699_3.tbl,WASP-121 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+WASP_121_b_3.11900_5699_4.tbl,WASP-121 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+WASP_15_b_3.11444_5675_2.tbl,WASP-15 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+WASP_15_b_3.11444_5675_4.tbl,WASP-15 b,Transmission,Near Infrared Spectrograph (NIRSpec),validation
+WASP_166_b_3.12399_5951_1.tbl,WASP-166 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WASP_166_b_3.12399_5951_2.tbl,WASP-166 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WASP_166_b_3.12399_5951_4.tbl,WASP-166 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395M,train
+WASP_17_b_3.11446_5567_2.tbl,WASP-17 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WASP_17_b_3.11446_5567_3.tbl,WASP-17 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WASP_17_b_3.11446_5567_4.tbl,WASP-17 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WASP_39_b_3.11466_4988_4.tbl,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),excluded
+WASP_39_b_3.11466_5040_1.tbl,WASP-39 b,Transmission,Near Infrared Camera (NIRCam),excluded
+WASP_39_b_3.11466_5077_1.tbl,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - G395H,test
+WASP_39_b_3.11466_5078_1.tbl,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),excluded
+WASP_39_b_3.11466_5087_1.tbl,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec) - PRISM,excluded
+WASP_39_b_3.11466_5502_2.tbl,WASP-39 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),excluded
+WASP_39_b_3.11466_5502_6.tbl,WASP-39 b,Transmission,Near Infrared Spectrograph (NIRSpec),excluded
+WASP_80_b_3.11585_5432_1.tbl,WASP-80 b,Transmission,Near Infrared Camera (NIRCam),train
+WASP_94_A_b_3.11708_5700_2.tbl,WASP-94 A b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+WASP_94_A_b_3.11708_5700_4.tbl,WASP-94 A b,Transmission,Near Infrared Spectrograph (NIRSpec),train
+WASP_96_b_3.11667_5310_1.tbl,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WASP_96_b_3.11667_5995_1.tbl,WASP-96 b,Transmission,Near Infrared Imager and Slitless Spectrograph (NIRISS),train
+WD_0806_661_b_3.11616_5641_1.tbl,WD 0806-661 b,Direct Imaging,Mid-Infrared Instrument (MIRI) - LRS,excluded
+WISE_J104915.57_531906.1_A_b_3.19807_5694_1.tbl,WISE J104915.57-531906.1 A b,Direct Imaging,Mid-Infrared Instrument (MIRI),excluded
+WISE_J104915.57_531906.1_A_b_3.19807_5694_2.tbl,WISE J104915.57-531906.1 A b,Direct Imaging,Near Infrared Spectrograph (NIRSpec),excluded
+YSES_1_b_3.12512_5932_1.tbl,YSES-1 b,Direct Imaging,Mid-Infrared Instrument (MIRI),excluded
+YSES_1_b_3.12512_5932_3.tbl,YSES-1 b,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - PRISM,excluded
+YSES_1_c_3.12559_5932_2.tbl,YSES-1 c,Direct Imaging,Mid-Infrared Instrument (MIRI),excluded
+YSES_1_c_3.12559_5932_4.tbl,YSES-1 c,Direct Imaging,Near Infrared Spectrograph (NIRSpec) - PRISM,excluded
